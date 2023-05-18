@@ -1,0 +1,216 @@
+.clr{
+	clear:both;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited{
+	color: inherit;
+}
+
+header{
+	font-family: monospace;
+}
+
+.hconteiner{
+	display: flex;
+	align-items: center;
+	margin: 35px 0px;
+}
+
+.logo{
+	width: 235px;
+	height: 46.2px;
+}
+
+.hconteiner .logo{
+	margin: 0px 35px;
+}
+.headers{
+	flex-grow: 1;
+}
+
+.top{
+	display: flex;
+	justify-content:flex-end;
+	font-size: 17px;
+	padding: 10px;
+	border-bottom: 1px solid orangered;
+}
+
+.Date, .Medios, .Share, .Search{
+	margin: 0px 50px;
+}
+nav{
+	display: flex;
+	justify-content: flex-end;
+}
+nav ul li{
+	display: inline;
+	padding: 10px;
+	color: orangered;
+	font-family: monospace;
+	font-size: 17px;
+}
+nav ul{
+	margin-top: 10px;
+}
+
+main{
+	width: 50%;
+	margin: auto;
+	font-family: 'Encode Sans',sans-serif;
+}
+
+.encabezado-nota{
+	display: flex;
+	justify-content: space-between;
+}
+.seccion{
+	padding: 5px;
+	margin-bottom: 10px;
+	color:white;
+	font-family: monospace;
+	background-color: orangered;
+}
+.seccion a:visited{
+	color: white;
+}
+.fecha-nota{
+	margin-bottom: 10px;
+}
+
+h1{
+	font-size: 50px;
+	font-weight: 800;
+	margin: 20px 0px;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: 500;
+	margin: 20px 0px;
+}
+
+.Autor{
+	float: inline-start;
+	font-family: monospace;
+	font-size: large;
+	margin: 10px 0px;
+}
+.AShare{
+	float: inline-end;
+	margin: 10px 0px;
+}
+
+.asconteiner{
+	display: flex;
+	justify-content: space-between;
+	border: 10px solid black
+}
+.cantidad{
+	color: orangered;
+	font-weight: 800;
+	font-family: monospace;
+	font-size: 18px;
+}
+.epigrafe{
+	display: flex;
+	justify-content: flex-start;
+	padding-bottom: 10px;
+	border-bottom: 1px solid grey;
+	margin: 10px 0px;
+}
+.cantidad{
+	min-width: 80px;
+}
+
+.article{
+	display: flex;
+	flex-direction: column;
+}
+strong{
+	font-weight: 600;
+}
+p{
+	font-size: 19px;
+	line-height: 1.6em;
+	padding: 15px 0px;
+}
+.twitter p{
+	font-size: 15px;
+	padding: 0px 20%;
+}
+
+.tags ul li{
+	display: inline;
+	padding: 5px;
+	margin-right: 12px;
+	color: white;
+	background-color: orangered;
+	
+}
+.tags ul li:hover{
+	color: orangered;
+	background-color: white;
+}
+.tags ul li a:hover{
+	text-decoration: none;
+}
+.tags ul li a:visited{
+	color: inherit;
+}
+
+footer{
+	padding: 30px 0px;
+	width: 50%;
+	margin:auto;
+	font-family: 'Encode Sans',sans-serif;
+	border-top: 5px solid orangered;
+	margin-top: 30px;
+}
+
+.fcontainer{
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+}
+
+footer div .logo{
+	margin: auto;
+	padding: 35px;
+}
+
+.FMedios{
+	display: flex;
+	align-content: center;
+	padding: 10px 45%;
+	border-top: 1px solid orangered;
+	border-bottom: 1px solid orangered;
+}
+
+.Copyright p{
+	font-size: 15px;
+	line-height: 1.0em;
+	padding: 5px 0px;
+}
+.Copyright{
+	margin: 20px 0px;
+}
+.bottom{
+	display: flex;
+	justify-content: space-between;
+}
+footer div div nav{
+	padding: 20px 0px;
+}
+
+.firma{
+	padding: 20px 0px;
+}
